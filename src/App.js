@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 var perf =require('./homePage.html');
 
-class Index extends React.Component {
+class App extends React.Component {
    render(){
       return (
          <iframe src={perf }></iframe>  
